@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become a Sponsor - Ultiplex Productions</title>
+    <meta name="description" content="Partner with Ultiplex Productions as a sponsor. Get logo placement, featured mentions, and exclusive access to client referrals.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/ultiplex-logo.png" type="image/png">
+</head>
+<body class="min-h-screen bg-background text-foreground selection-blue">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full glass-effect z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center space-x-3">
+                    <div class="relative">
+                        <img src="images/ultiplex-logo.png" alt="Ultiplex Productions Logo" width="40" height="40" class="rounded-full logo-glow">
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <svg class="h-6 w-6 text-primary animate-pulse-glow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                        </svg>
+                        <svg class="h-5 w-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"></path>
+                        </svg>
+                    </div>
+                    <span class="text-xl font-bold gradient-text">Ultiplex Productions</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <button onclick="navigateToPage('index.html')" class="nav-link">Home</button>
+                    <button onclick="navigateToPage('index.html#about')" class="nav-link">About</button>
+                    <button onclick="navigateToPage('services.html')" class="nav-link">Services</button>
+                    <button onclick="navigateToPage('pricing.html')" class="nav-link">Pricing</button>
+                    <button onclick="navigateToPage('contact.html')" class="nav-link">Contact</button>
+                    <button onclick="navigateToPage('sponsor.html')" class="nav-link active">Sponsor</button>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="btn-ghost hover-glow">
+                        <svg id="menu-icon" class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                        <svg id="close-icon" class="h-6 w-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div id="mobile-menu" class="md:hidden py-4 border-t border-border glass-effect hidden">
+                <div class="flex flex-col space-y-2">
+                    <button onclick="navigateToPage('index.html')" class="mobile-nav-link">Home</button>
+                    <button onclick="navigateToPage('index.html#about')" class="mobile-nav-link">About</button>
+                    <button onclick="navigateToPage('services.html')" class="mobile-nav-link">Services</button>
+                    <button onclick="navigateToPage('pricing.html')" class="mobile-nav-link">Pricing</button>
+                    <button onclick="navigateToPage('contact.html')" class="mobile-nav-link">Contact</button>
+                    <button onclick="navigateToPage('sponsor.html')" class="mobile-nav-link active">Sponsor</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sponsor Section -->
+    <section class="pt-24 py-20 relative">
+        <div class="absolute inset-0 glass-effect"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-16 animate-fade-in-up">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 gradient-text">Become a Sponsor</h1>
+                <p class="text-xl text-muted-foreground max-w-4xl mx-auto text-balance leading-relaxed">
+                    Partner with Ultiplex Productions and support quality web development while gaining exposure to our rapidly growing client base.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="animate-slide-in-left">
+                    <h3 class="text-3xl font-bold mb-6 gradient-text">Sponsorship Benefits</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-center p-3 glass-effect rounded-lg hover-glow">
+                            <svg class="h-5 w-5 text-accent mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span class="text-lg">Logo placement on all client websites</span>
+                        </li>
+                        <li class="flex items-center p-3 glass-effect rounded-lg hover-glow">
+                            <svg class="h-5 w-5 text-accent mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span class="text-lg">Featured mention in project portfolios</span>
+                        </li>
+                        <li class="flex items-center p-3 glass-effect rounded-lg hover-glow">
+                            <svg class="h-5 w-5 text-accent mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span class="text-lg">Social media promotion and recognition</span>
+                        </li>
+                        <li class="flex items-center p-3 glass-effect rounded-lg hover-glow">
+                            <svg class="h-5 w-5 text-accent mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span class="text-lg">Priority partnership opportunities</span>
+                        </li>
+                        <li class="flex items-center p-3 glass-effect rounded-lg hover-glow">
+                            <svg class="h-5 w-5 text-accent mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span class="text-lg">Exclusive access to client referrals</span>
+                        </li>
+                        <li class="flex items-center p-3 glass-effect rounded-lg hover-glow">
+                            <svg class="h-5 w-5 text-accent mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span class="text-lg">Custom sponsorship packages available</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card p-8 animate-slide-in-right glass-effect card-hover">
+                    <div class="text-center">
+                        <h3 class="text-3xl gradient-text font-bold">Ready to Partner?</h3>
+                        <p class="text-lg text-muted-foreground">
+                            Join our network of sponsors and help us deliver quality websites to businesses worldwide.
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <div class="mb-6">
+                            <div class="text-5xl font-bold text-primary mb-2 gradient-text">Custom Packages</div>
+                            <p class="text-muted-foreground text-lg">Tailored to your budget and goals</p>
+                        </div>
+                        <button onclick="becomeSponsor()" class="w-full btn-primary hover-glow text-lg py-4">
+                            Become a Sponsor 
+                            <svg class="ml-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <button onclick="navigateToPage('contact.html')" class="btn-outline glass-effect hover-glow">
+                    Contact Us for More Information
+                    <svg class="ml-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-background border-t border-border py-12 glass-effect">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-3 mb-4">
+                        <img src="images/ultiplex-logo.png" alt="Ultiplex Productions" width="32" height="32" class="rounded-full logo-glow">
+                        <svg class="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                        </svg>
+                        <svg class="h-5 w-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"></path>
+                        </svg>
+                        <span class="font-bold gradient-text">Ultiplex Productions</span>
+                    </div>
+                    <p class="text-muted-foreground text-sm leading-relaxed">
+                        Quality websites that help businesses thrive and dominate online.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-4 gradient-text">Services</h4>
+                    <ul class="space-y-2 text-sm text-muted-foreground">
+                        <li>Website Development</li>
+                        <li>Mobile Optimization</li>
+                        <li>E-commerce Solutions</li>
+                        <li>Maintenance & Support</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-4 gradient-text">Packages</h4>
+                    <ul class="space-y-2 text-sm text-muted-foreground">
+                        <li>Basic - £550</li>
+                        <li>Advanced - £800</li>
+                        <li>Premium - £950</li>
+                        <li>Maintenance Plans</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-4 gradient-text">Contact</h4>
+                    <ul class="space-y-2 text-sm text-muted-foreground">
+                        <li>brendynmitchell18@gmail.com</li>
+                        <li>Remote Services</li>
+                        <li>Worldwide Availability</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
+                <p>&copy; 2025 Ultiplex Productions. All rights reserved. | CEO: Brendyn Mitchell</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
